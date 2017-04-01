@@ -1,0 +1,15 @@
+<head>
+  <title>demo</title>
+  <script src="//cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button class="btn-copy-link" data-clipboard-text="wsvincent.com">Copy wsvincent.com</button>
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
